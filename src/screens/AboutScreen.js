@@ -1,5 +1,7 @@
+import { Typography } from "@material-ui/core";
+
 const AboutScreen = () => {
-  return <h1>About</h1>;
+  return <Typography variant="h2">About Screen</Typography>;
 };
 
 export default AboutScreen;

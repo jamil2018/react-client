@@ -1,5 +1,7 @@
+import { Typography } from "@material-ui/core";
+
 const NotFoundScreen = () => {
-  return <h1>Error 404!!! Page not found</h1>;
+  return <Typography variant="h2">Error 404!!! Page not found...</Typography>;
 };
 
 export default NotFoundScreen;
